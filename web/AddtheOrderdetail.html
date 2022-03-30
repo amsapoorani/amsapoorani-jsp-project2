@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+online booking order details
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+  <title>order form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+    <div class="container mt-3" style="background-color: lightcyan;">
+  <h2 style="color:darkblue;">Order Entry Form</h2>
+  <form action="AddOrderdetails.jsp">
+      <div class="mb-3 mt-3" >
+      <label style="color:darkblue;">Order Id:</label>
+      <input type="text" class="form-control" id="oid" placeholder="Enter order id" name="oid"
+            required>
+    </div>
+    <div class="mb-3">
+      <label style="color:darkblue;">Customer Id:</label>
+      <input type="text" class="form-control" id="cid" placeholder="Enter customer id" name="cid" required>
+    </div>
+      <div class="mb-3">
+      <label style="color:darkblue;">Product Id:</label>
+      <input type="text" class="form-control" id="pid" placeholder="Enter product id" name="pid" required>
+    </div>
+      <div class="mb-3">
+      <label style="color:darkblue;">Order Date:</label>
+      <input type="date" class="form-control"  name="odate" required>
+    </div>
+      <div class="mb-3">
+      <label style="color:darkblue;">Delivery Date:</label>
+      <input type="date" class="form-control"  name="ddate" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
